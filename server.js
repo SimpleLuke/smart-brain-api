@@ -45,6 +45,9 @@ app.get("/profile/:id", (req, res) => {
 app.put("/image", (req, res) => {
   image.handleImage(req, res, db);
 });
+app.post("/imageUrl", (req, res) => {
+  image.handleApiCall(req, res);
+});
 
 app.listen(5000, () => console.log("Listening at port 5000..."));
 
