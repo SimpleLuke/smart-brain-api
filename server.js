@@ -49,7 +49,9 @@ app.post("/imageUrl", (req, res) => {
   image.handleApiCall(req, res);
 });
 
-app.listen(5000, () => console.log("Listening at port 5000..."));
+app.listen(process.env.PORT || 5000, () =>
+  console.log(`Listening at port ${process.env.PORT}...`)
+);
 
 // / --> res = this is working
 // /signin --> POST = success/fail
