@@ -118,7 +118,7 @@ This repo containes the backend code. For frontend source code, please visit [he
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/SimpleLuke/smart-brain-api/
+   git clone https://github.com/SimpleLuke/smart-brain-api.git
    ```
 2. Install NPM packages
    ```sh
@@ -184,7 +184,7 @@ Remember to give the project a star! Thanks again!
 - LinkedIn - [Luke Lai](https://www.linkedin.com/in/luke-lai-309a3522b/)
 - Twitter - [@LukeLaiDev](https://www.twitter.com/LukeLaiDev)
 
-Project Link: [**[Face Recognition App](https://github.com/SimpleLuke/Face-Recognition-App/)**]
+Project Link: [**[Face Recognition API](https://github.com/SimpleLuke/smart-brain-api/)**]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
