@@ -48,9 +48,3 @@ app.post("/imageUrl", (req, res) => {
 app.listen(process.env.PORT || 5000, () =>
   console.log(`Listening at port ${process.env.PORT || 5000}...`)
 );
-
-// / --> res = this is working
-// /signin --> POST = success/fail
-// /register --> POST = user
-// /profile/:userId --> GET = user
-// /image --> PUT --> user
