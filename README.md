@@ -5,7 +5,7 @@
 <div align="center">
   <img width="1428" alt="image" src="https://user-images.githubusercontent.com/89473016/233640022-b2933d1a-610f-433c-a26b-016639883ed8.png">
 
-  <h3 align="center">E-commerce</h3>
+  <h3 align="center">Face Recognition API</h3>
 
   <p align="center">
     An AI Face Recognition App <a href="https://merry-marigold-e75c7c.netlify.app/">Live Demo</a>
