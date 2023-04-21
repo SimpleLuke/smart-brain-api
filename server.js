@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -10,20 +11,15 @@ const profile = require("./controllers/profile");
 const image = require("./controllers/image");
 
 const db = knex({
+  // Enter your own database information here based on what you created
   client: "pg",
   connection: {
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-      rejectUnauthorized: false,
-    },
+    host: "127.0.0.1",
+    user: "",
+    password: "",
+    database: "smart-brain",
   },
 });
-
-// db.select("*")
-//   .from("users")
-//   .then((data) => {
-//     console.log(data);
-//   });
 
 app.use(cors());
 app.use(express.json()); // bodyParser.json()
@@ -50,7 +46,7 @@ app.post("/imageUrl", (req, res) => {
 });
 
 app.listen(process.env.PORT || 5000, () =>
-  console.log(`Listening at port ${process.env.PORT}...`)
+  console.log(`Listening at port ${process.env.PORT || 5000}...`)
 );
 
 // / --> res = this is working
